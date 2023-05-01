@@ -41,5 +41,9 @@ spiral: lsystem # card = 3 * n
 
 # traces
 
-trace_tree: trace
+trace_tree_u: trace
 	./trace file=tests/tree.bnf start=T angle=30 card=601 y=350 a=-90 gens=100 alpha=20 method=uniform
+
+
+trace_tree_nu: trace
+	./trace file=tests/tree.bnf start=T angle=30 card=601 y=350 a=-90 gens=100 alpha=20 method=nuniform

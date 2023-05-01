@@ -228,7 +228,7 @@ int main(int argc, char* argv[]) try {
 
     if (method == "uniform") {
         lsystem.display([&]() {        
-            return grammar[start].getRandomElement(card);
+            return grammar[start].getURandomElement(card);
         }); 
     }
 
